@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "CSVWriter.cpp",
               "ToolTip": "C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab0b\\CSVWriter.cpp",
               "RelativeToolTip": "CSVWriter.cpp",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-12T06:09:14.205Z",
               "EditorCaption": ""
@@ -53,7 +53,7 @@
               "RelativeDocumentMoniker": "CSVWriter.h",
               "ToolTip": "C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab0b\\CSVWriter.h",
               "RelativeToolTip": "CSVWriter.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-12T06:07:51.065Z",
               "EditorCaption": ""
@@ -68,8 +68,7 @@
               "RelativeToolTip": "WordCounter.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-12T06:04:02.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T06:04:02.87Z"
             },
             {
               "$type": "Document",
@@ -81,8 +80,7 @@
               "RelativeToolTip": "WordCounter.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-12T05:52:47.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T05:52:47.595Z"
             },
             {
               "$type": "Document",

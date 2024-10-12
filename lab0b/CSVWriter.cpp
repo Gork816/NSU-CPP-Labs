@@ -2,18 +2,6 @@
 #include <fstream>
 #include <iostream>
 
-std::list<std::pair<std::string, int>> Writer::sortWords(const std::map<std::string, int>& wordCount) {
-    // Переносим данные из map в список пар
-    std::list<std::pair<std::string, int>> sortedWords(wordCount.begin(), wordCount.end());
-
-    // Сортировка списка по убыванию частоты
-    sortedWords.sort([](const std::pair<std::string, int>& a, const std::pair<std::string, int>& b) {
-        return b.second < a.second;
-        });
-
-    return sortedWords;
-}
-
 void Writer::writeToFile(const std::string& fileName, const std::map<std::string, int>& wordCount, int totalWords) {
     std::ofstream outputFile(fileName);
 
@@ -22,7 +10,14 @@ void Writer::writeToFile(const std::string& fileName, const std::map<std::string
         return;
     }
 
-    std::list<std::pair<std::string, int>> sortedWordCount = sortWords(wordCount);
+    std::list<std::pair<std::string, int>> sortedWordCount(wordCount.begin(), wordCount.end());
+
+    sortedWordCount.sort([](const auto& a, const auto& b) {
+        if (a.second != b.second) {
+            return a.second > b.second;
+        }
+        return a.first < b.first;
+        });
 
     outputFile << "Слово,Частота,Частота (%)" << std::endl;
     for (const auto& pair : sortedWordCount) {
