@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab0b\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{90090160-353F-4376-8DAD-DA380C10F091}|lab0b.vcxproj|C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab0b\\CSVWriter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{90090160-353F-4376-8DAD-DA380C10F091}|lab0b.vcxproj|solutionrelative:CSVWriter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90090160-353F-4376-8DAD-DA380C10F091}|lab0b.vcxproj|C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab0b\\CSVWriter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{90090160-353F-4376-8DAD-DA380C10F091}|lab0b.vcxproj|solutionrelative:CSVWriter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{90090160-353F-4376-8DAD-DA380C10F091}|lab0b.vcxproj|C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab0b\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{90090160-353F-4376-8DAD-DA380C10F091}|lab0b.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90090160-353F-4376-8DAD-DA380C10F091}|lab0b.vcxproj|C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab0b\\WordCounter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{90090160-353F-4376-8DAD-DA380C10F091}|lab0b.vcxproj|solutionrelative:WordCounter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90090160-353F-4376-8DAD-DA380C10F091}|lab0b.vcxproj|C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab0b\\WordCounter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{90090160-353F-4376-8DAD-DA380C10F091}|lab0b.vcxproj|solutionrelative:WordCounter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,12 +35,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CSVWriter.cpp",
+              "DocumentMoniker": "C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab0b\\CSVWriter.cpp",
+              "RelativeDocumentMoniker": "CSVWriter.cpp",
+              "ToolTip": "C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab0b\\CSVWriter.cpp",
+              "RelativeToolTip": "CSVWriter.cpp",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-12T06:09:14.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CSVWriter.h",
+              "DocumentMoniker": "C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab0b\\CSVWriter.h",
+              "RelativeDocumentMoniker": "CSVWriter.h",
+              "ToolTip": "C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab0b\\CSVWriter.h",
+              "RelativeToolTip": "CSVWriter.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-12T06:07:51.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WordCounter.cpp",
+              "DocumentMoniker": "C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab0b\\WordCounter.cpp",
+              "RelativeDocumentMoniker": "WordCounter.cpp",
+              "ToolTip": "C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab0b\\WordCounter.cpp",
+              "RelativeToolTip": "WordCounter.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-12T06:04:02.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WordCounter.h",
+              "DocumentMoniker": "C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab0b\\WordCounter.h",
+              "RelativeDocumentMoniker": "WordCounter.h",
+              "ToolTip": "C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab0b\\WordCounter.h",
+              "RelativeToolTip": "WordCounter.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-12T05:52:47.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab0b\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab0b\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-26T16:56:05.152Z",
               "EditorCaption": ""

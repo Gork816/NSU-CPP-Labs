@@ -127,7 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CSVWriter.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="WordCounter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CSVWriter.h" />
+    <ClInclude Include="WordCounter.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
