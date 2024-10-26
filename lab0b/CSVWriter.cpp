@@ -10,19 +10,21 @@ void Writer::writeToFile(const std::string& fileName, const std::map<std::string
         return;
     }
 
-    std::list<std::pair<std::string, int>> sortedWordCount(wordCount.begin(), wordCount.end());
+    std::list<const std::pair<const std::string, int>*> sortedWordCount;
+    for (const auto& pair : wordCount) {
+        sortedWordCount.push_back(&pair);
+    }
 
-    sortedWordCount.sort([](const auto& a, const auto& b) {
-        if (a.second != b.second) {
-            return a.second > b.second;
-        }
-        return a.first < b.first;
+    sortedWordCount.sort([](const auto* a, const auto* b) {
+        if (a->second != b->second)
+            return a->second > b->second;
+        return a->first < b->first;
         });
 
     outputFile << "Слово,Частота,Частота (%)" << std::endl;
-    for (const auto& pair : sortedWordCount) {
-        double frequency = (static_cast<double>(pair.second) / totalWords) * 100;
-        outputFile << pair.first << ',' << pair.second << ',' << frequency << std::endl;
+    for (const auto* pair : sortedWordCount) {
+        double frequency = (static_cast<double>(pair->second) / totalWords) * 100;
+        outputFile << pair->first << ',' << pair->second << ',' << frequency << std::endl;
     }
 
     outputFile.close();
