@@ -1,0 +1,26 @@
+﻿  test.cpp
+C:\Users\79222\Desktop\NSU-CPP-Labs\lab4\parser.h(107,5): warning C4984: "if constexpr" — расширение языка C++17
+  (компиляция исходного файла "/test.cpp")
+      C:\Users\79222\Desktop\NSU-CPP-Labs\lab4\parser.h(107,5):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\79222\Desktop\NSU-CPP-Labs\lab4\parser.h(29,11):
+          при компиляции класса "CSVParser<int,std::string,double>::Iterator"
+          C:\Users\79222\Desktop\NSU-CPP-Labs\lab4\parser.h(85,49):
+          во время компиляции функции-члена класс шаблон "void CSVParser<int,std::string,double>::Iterator::parse_line(void)"
+              C:\Users\79222\Desktop\NSU-CPP-Labs\lab4\parser.h(64,23):
+              см. первую ссылку на "CSVParser<int,std::string,double>::Iterator::parse_line" в "CSVParser<int,std::string,double>::Iterator::operator ++"
+              C:\Users\79222\Desktop\NSU-CPP-Labs\lab4_tests\test.cpp(16,5):
+              см. первую ссылку на "CSVParser<int,std::string,double>::Iterator::operator ++" в "CSVParserTest_BasicParsing_Test::TestBody"
+          C:\Users\79222\Desktop\NSU-CPP-Labs\lab4\parser.h(91,13):
+          выполняется компиляция ссылки на экземпляр шаблон функции "void CSVParser<int,std::string,double>::Iterator::parse_fields<0,std::tuple<int,std::string,double>>(std::istream &,Tuple &)"
+          with
+          [
+              Tuple=std::tuple<int,std::string,double>
+          ]
+  
+C:\Users\79222\Desktop\NSU-CPP-Labs\lab4\parser.h(137,13): warning C4984: "if constexpr" — расширение языка C++17
+  (компиляция исходного файла "/test.cpp")
+  
+  lab4_tests.vcxproj -> C:\Users\79222\Desktop\NSU-CPP-Labs\lab4_tests\x64\Debug\lab4_tests.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

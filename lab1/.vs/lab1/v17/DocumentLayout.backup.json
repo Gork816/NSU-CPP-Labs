@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{13542848-A4BF-488D-A369-B01C579F108B}|lab1.vcxproj|C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{13542848-A4BF-488D-A369-B01C579F108B}|lab1.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{13542848-A4BF-488D-A369-B01C579F108B}|lab1.vcxproj|C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab1\\bitarray.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{13542848-A4BF-488D-A369-B01C579F108B}|lab1.vcxproj|solutionrelative:bitarray.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13542848-A4BF-488D-A369-B01C579F108B}|lab1.vcxproj|C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab1\\bitarray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{13542848-A4BF-488D-A369-B01C579F108B}|lab1.vcxproj|solutionrelative:bitarray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13542848-A4BF-488D-A369-B01C579F108B}|lab1.vcxproj|C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{13542848-A4BF-488D-A369-B01C579F108B}|lab1.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "bitarray.cpp",
               "DocumentMoniker": "C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab1\\bitarray.cpp",
               "RelativeDocumentMoniker": "bitarray.cpp",
               "ToolTip": "C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab1\\bitarray.cpp",
               "RelativeToolTip": "bitarray.cpp",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAPMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-25T18:23:44.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T18:23:44.292Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "bitarray.h",
               "DocumentMoniker": "C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab1\\bitarray.h",
               "RelativeDocumentMoniker": "bitarray.h",
               "ToolTip": "C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab1\\bitarray.h",
               "RelativeToolTip": "bitarray.h",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAoBAAAAAAAAAAAAwCMBAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-25T16:55:56.721Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab1\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab1\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-25T16:55:33.199Z"
+              "WhenOpened": "2024-10-25T16:55:33.199Z",
+              "EditorCaption": ""
             }
           ]
         }

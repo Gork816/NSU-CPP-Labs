@@ -1,0 +1,9 @@
+﻿  config.cpp
+  converters.cpp
+  main.cpp
+  wavprocessor.cpp
+C:\Users\79222\Desktop\NSU-CPP-Labs\lab3\wavprocessor.cpp(46,18): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Создание кода...
+  lab3.vcxproj -> C:\Users\79222\Desktop\NSU-CPP-Labs\lab3\x64\Debug\lab3.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

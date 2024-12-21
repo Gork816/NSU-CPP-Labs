@@ -1,0 +1,17 @@
+﻿  main.cpp
+C:\Users\79222\Desktop\NSU-CPP-Labs\lab4\parser.h(107,5): warning C4984: "if constexpr" — расширение языка C++17
+  (компиляция исходного файла "main.cpp")
+      C:\Users\79222\Desktop\NSU-CPP-Labs\lab4\parser.h(42,14):
+      Сообщение диагностики возникло в созданной компилятором функции "void CSVParser<Args...>::Iterator::parse_fields(std::istream &,Tuple &)"
+  
+C:\Users\79222\Desktop\NSU-CPP-Labs\lab4\parser.h(137,13): warning C4984: "if constexpr" — расширение языка C++17
+  (компиляция исходного файла "main.cpp")
+      C:\Users\79222\Desktop\NSU-CPP-Labs\lab4\parser.h(42,14):
+      Сообщение диагностики возникло в созданной компилятором функции "void CSVParser<Args...>::Iterator::parse_fields(std::istream &,Tuple &)"
+  
+C:\Users\79222\Desktop\NSU-CPP-Labs\lab4\print_tuple.h(23,5): warning C4984: "if constexpr" — расширение языка C++17
+  (компиляция исходного файла "main.cpp")
+  
+  lab4.vcxproj -> C:\Users\79222\Desktop\NSU-CPP-Labs\lab4_tests\x64\Debug\lab4.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

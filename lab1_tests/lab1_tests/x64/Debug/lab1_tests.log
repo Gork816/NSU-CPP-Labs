@@ -1,0 +1,7 @@
+﻿  test.cpp
+C:\Users\79222\Desktop\NSU-CPP-Labs\lab1\bitarray.cpp(204,62): warning C4267: +=: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "/test.cpp")
+  
+  lab1_tests.vcxproj -> C:\Users\79222\Desktop\NSU-CPP-Labs\lab1_tests\x64\Debug\lab1_tests.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

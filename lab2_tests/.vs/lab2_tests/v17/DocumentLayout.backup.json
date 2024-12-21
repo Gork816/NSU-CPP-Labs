@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab2_tests\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26A8791D-A958-4B8B-84AB-26AA1E9A9FC7}|lab2_tests.vcxproj|C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab2_tests\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{26A8791D-A958-4B8B-84AB-26AA1E9A9FC7}|lab2_tests.vcxproj|solutionrelative:test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D958F715-BF0F-4C78-BE9D-93CBB56DF0F2}|..\\lab2\\lab2.vcxproj|C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab2\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D958F715-BF0F-4C78-BE9D-93CBB56DF0F2}|..\\lab2\\lab2.vcxproj|C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab2\\grid.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Grisha\\VisualStudio\\VC\\Tools\\MSVC\\14.41.34120\\include\\vector||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "game.cpp",
+              "DocumentMoniker": "C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab2\\game.cpp",
+              "RelativeDocumentMoniker": "..\\lab2\\game.cpp",
+              "ToolTip": "C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab2\\game.cpp",
+              "RelativeToolTip": "..\\lab2\\game.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-06T22:36:45.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "grid.cpp",
+              "DocumentMoniker": "C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab2\\grid.cpp",
+              "RelativeDocumentMoniker": "..\\lab2\\grid.cpp",
+              "ToolTip": "C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab2\\grid.cpp",
+              "RelativeToolTip": "..\\lab2\\grid.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-06T22:19:10.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "vector",
+              "DocumentMoniker": "C:\\Grisha\\VisualStudio\\VC\\Tools\\MSVC\\14.41.34120\\include\\vector",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Grisha\\VisualStudio\\VC\\Tools\\MSVC\\14.41.34120\\include\\vector",
+              "ToolTip": "C:\\Grisha\\VisualStudio\\VC\\Tools\\MSVC\\14.41.34120\\include\\vector",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Grisha\\VisualStudio\\VC\\Tools\\MSVC\\14.41.34120\\include\\vector",
+              "ViewState": "AgIAAFwHAAAAAAAAAAAEwGkHAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-06T22:16:52.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.cpp",
+              "DocumentMoniker": "C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab2_tests\\test.cpp",
+              "RelativeDocumentMoniker": "test.cpp",
+              "ToolTip": "C:\\Users\\79222\\Desktop\\NSU-CPP-Labs\\lab2_tests\\test.cpp",
+              "RelativeToolTip": "test.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-06T22:11:59.908Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
