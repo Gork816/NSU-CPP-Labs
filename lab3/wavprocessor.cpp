@@ -10,7 +10,6 @@ WavProcessor::WavProcessor(const std::string& filePath) : filePath(filePath) {
         throw std::runtime_error("Failed to open WAV file: " + filePath);
     }
 
-    // Parse WAV header
     char header[44];
     file.read(header, 44);
     if (std::strncmp(header, "RIFF", 4) != 0 || std::strncmp(header + 8, "WAVE", 4) != 0) {
@@ -19,7 +18,6 @@ WavProcessor::WavProcessor(const std::string& filePath) : filePath(filePath) {
     sampleRate = *reinterpret_cast<int*>(header + 24);
     int dataSize = *reinterpret_cast<int*>(header + 40);
 
-    // Read samples
     samples.resize(dataSize / 2);
     file.read(reinterpret_cast<char*>(samples.data()), dataSize);
 }
@@ -42,7 +40,6 @@ void WavProcessor::save(const std::string& outputPath) const {
         throw std::runtime_error("Failed to open output file: " + outputPath);
     }
 
-    // Write WAV header
     int dataSize = samples.size() * 2;
     char header[44] = {};
     std::memcpy(header, "RIFF", 4);
@@ -70,7 +67,6 @@ void WavProcessor::printInfo() const {
     std::cout << "Number of Samples: " << samples.size() << std::endl;
     std::cout << "First 10 Samples (if available): ";
 
-    // Печатаем первые 10 сэмплов (если они есть)
     for (size_t i = 0; i < std::min(samples.size(), size_t(10)); ++i) {
         std::cout << samples[i] << " ";
     }

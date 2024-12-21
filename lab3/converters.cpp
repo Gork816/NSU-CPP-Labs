@@ -28,7 +28,6 @@ std::map<std::string, std::string> ConverterFactory::getAvailableConverters() {
     };
 }
 
-// Register all default converters
 void registerDefaultConverters() {
     ConverterFactory::registerConverter("mute", [](const std::vector<std::string>& args) {
         if (args.size() != 2) {
@@ -61,7 +60,6 @@ void registerDefaultConverters() {
         });
 }
 
-// MuteConverter implementation
 MuteConverter::MuteConverter(double startTime, double endTime)
     : startTime(startTime), endTime(endTime) {}
 
@@ -74,7 +72,6 @@ void MuteConverter::process(std::vector<int16_t>& samples, int sampleRate) {
     }
 }
 
-// MixConverter implementation
 MixConverter::MixConverter(const std::vector<int16_t>& additionalSamples, double startTime)
     : additionalSamples(additionalSamples), startTime(startTime) {}
 
@@ -87,7 +84,6 @@ void MixConverter::process(std::vector<int16_t>& samples, int sampleRate) {
     }
 }
 
-// VolumeConverter implementation
 VolumeConverter::VolumeConverter(double factor)
     : factor(factor) {}
 

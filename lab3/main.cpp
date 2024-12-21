@@ -36,11 +36,11 @@ int main(int argc, char* argv[]) {
         std::vector<std::unique_ptr<Converter>> converters = configProcessor.parseConfig(inputPaths);
 
         WavProcessor outputProcessor(inputPaths[0]);
-        outputProcessor.printInfo();
+        //outputProcessor.printInfo();
         for (auto& converter : converters) {
             converter->process(outputProcessor.getSamples(), outputProcessor.getSampleRate());
         }
-        outputProcessor.printInfo();
+        //outputProcessor.printInfo();
         outputProcessor.save(outputPath);
 
         std::cout << "Processing completed successfully. Output saved to " << outputPath << ".\n";
